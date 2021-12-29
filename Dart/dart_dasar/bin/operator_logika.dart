@@ -11,4 +11,5 @@ void main(){
 
   var lulus = isNilaiAkhirGood || isNilaiAbsenGood;
   print(lulus);
+  print(!lulus);
 }
