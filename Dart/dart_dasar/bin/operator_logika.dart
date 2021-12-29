@@ -7,7 +7,7 @@ void main(){
   var isNilaiAbsenGood = nilaiAbsen >= 70;
 
   print(isNilaiAkhirGood);
-  print(isNilaiAbsenGood);
+  print(isNilaiAbsenGood); 
 
   var lulus = isNilaiAkhirGood || isNilaiAbsenGood;
   print(lulus);
