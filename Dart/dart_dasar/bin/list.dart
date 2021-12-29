@@ -21,5 +21,11 @@ void main(){
 
   print(listString);
   print(listString.length);
-   
+
+  var bilanganGanjil = [1,3,5,7];
+  var buah = <String> ['anggur','jeruk','mangga'];
+
+  print(bilanganGanjil);
+  print(buah);
+
 }
