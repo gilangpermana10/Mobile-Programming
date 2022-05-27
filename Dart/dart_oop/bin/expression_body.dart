@@ -13,7 +13,6 @@ class Computer {
 void main(){
 
   var computer = Computer();
-
   computer.startup();
   computer.shutdown();
   

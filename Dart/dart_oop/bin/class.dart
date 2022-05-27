@@ -13,18 +13,24 @@ class Person{
 
 }
 
+extension SayGoodbyeOnPerson on Person{
+  void sayGoodbye(String paramName){
+    print("goodbye $paramName, from $name");
+  }
+}
+
 void main(){
-
-
 
   var person1 = Person();
   person1.name = "Permana";
   person1.address = "Sukabumi";
+  person1.sayGoodbye("Riza");
   // person1.country = "Swiss"; tidak bisa karena final
 
   print(person1.name);
   print(person1.address);
   print(person1.country);
+
 
 
   person1.sayHello("gilang");
@@ -33,3 +39,4 @@ void main(){
   print(person2);
 
 }
+
